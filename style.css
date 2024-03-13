@@ -1,0 +1,75 @@
+body {
+    background-color: #cccccc;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+}
+
+.container {
+    margin: 120px auto;
+    max-width: 600px;
+    
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    text-align: center;
+    line-height: 1.5;
+}
+
+form {
+    background-color: rgb(231, 226, 226);
+    padding: 30px;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-bottom: 30px;
+}
+
+.instructions {
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    width: 80%;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.submit {
+    border: 2px solid rgba(0, 0, 0, 1);
+    margin-left: 10px;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+:hover .submit {
+    cursor: pointer;
+}
+
+.poem {
+    font-size: 16px;
+    background-color: rgb(231, 226, 226);
+    padding: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    border-left: 3px solid black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}   
+
+.image {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: 50px;
+
+}
+a {
+    color: rgb(0, 0, 68);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+}

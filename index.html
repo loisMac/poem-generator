@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>AI Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
         <h1>Morbid Poem Generator</h1>
     </header>
@@ -17,20 +21,23 @@
             placeholder="Enter a topic.."
             autofocus
             required
-            autocomplete="off"/>
-            <input type="submit" />
+            autocomplete="off"
+            class="instructions"/>
+            <input type="submit" 
+            class="submit" />
         </form>
-        <div>
+        <div class="poem">
             first line of poem
             <br>
             second line of poem
         </div>
+
+        
     </main>
-    
+    <img src="sad-face-flatline.png" class="image">
 
-    <footer>This was coded by Lois Macleod, is <a href="https://github.com/loisMac/poem-generator" target="_blank">open-sourced on GitHub
-    </a> and <a href="http://morbid-poems.netlify.app/" target="_blank">hosted on Netlify</a>.</footer>
-
+    <footer>This was coded by Lois Macleod, is <a href="https://github.com/loisMac/poem-generator" target="_blank">open-sourced on GitHub</a> and <a href="http://morbid-poems.netlify.app/" target="_blank">hosted on Netlify</a>.</footer>
+</div>
     <script src="index.js"></script>
 </body>
 </html>
