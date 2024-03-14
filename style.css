@@ -19,12 +19,17 @@ h1 {
     line-height: 1.5;
 }
 
-form {
+.form-container {
     background-color: rgb(231, 226, 226);
     padding: 30px;
-    display: flex;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin-bottom: 30px;
+}
+
+form {
+    
+    display: flex;
+    
 }
 
 .instructions {
@@ -59,9 +64,10 @@ form {
 .image {
     text-align: center;
     margin: 0 auto;
+    display: flex;
     max-width: 500px;
     max-height: 500px;
-    margin-left: 50px;
+    
 
 }
 a {
