@@ -61,6 +61,10 @@ form {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }   
 
+.hidden {
+    display: none;
+}
+
 .image {
     text-align: center;
     margin: 0 auto;
@@ -78,4 +82,13 @@ footer {
     text-align: center;
     margin-top: 30px;
     font-size: 12px;
+}
+
+.generating {
+    animation: blink 1s step-start 0s infinite;
+}
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
